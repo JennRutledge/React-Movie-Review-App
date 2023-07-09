@@ -8,9 +8,12 @@ import React, { useState }  from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../App.css';
 import MovieList from './MovieList'
-
+// need to import components to use in other areas as well as any css, bootstrap and react
 
 let Movie = () => {
+    // setting state, what it is before and what it is after
+    // for this app we are not changing the state by adding more movies
+    // so the state will stay the same, but could in the future add and change
   let [movies, setMovies] = useState([            
     {
         "Title": "Jumanji: Welcome to the Jungle",
@@ -86,5 +89,5 @@ let Movie = () => {
     </div>
   ); 
 };
-
+// need to export components to use in other areas
 export default Movie;

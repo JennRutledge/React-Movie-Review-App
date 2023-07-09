@@ -7,7 +7,7 @@ import ReviewForm from './ReviewForm';
 import Stars from './Stars';
 import Review from './Review';
 
-
+// need to import components to use in other areas as well as any css, bootstrap and react
 let ReviewList = () => {
    
     return (
@@ -22,5 +22,5 @@ let ReviewList = () => {
         </div>
     )
 }
-
+// need to export this component so it can be used in other components
 export default ReviewList;

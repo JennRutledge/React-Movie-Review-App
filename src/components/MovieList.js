@@ -3,9 +3,14 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../App.css';
-//import ReviewForm from './ReviewForm';
 import ReviewList from './ReviewList';
 import '../App.css';
+
+// need to import components to use in other areas as well as any css, bootstrap and react
+// This is the component used to display the movies
+// done my maping over the array of movies
+// added the ReviewList so that the review components are attached to each
+// individual movie
 
 let MovieList = (props) => {
     return (
@@ -24,5 +29,5 @@ let MovieList = (props) => {
         </div>    
      );
 };
-
+// need to export components to use in other areas
 export default MovieList;
