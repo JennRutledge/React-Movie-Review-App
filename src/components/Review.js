@@ -11,7 +11,7 @@ import ReviewForm from './ReviewForm';
 
 let Review = () => {
     let [review, setReview] = useState([])
-    ReviewForm
+    
 
 }
 // need to export components to use in other areas
